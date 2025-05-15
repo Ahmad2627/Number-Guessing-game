@@ -88,8 +88,3 @@ GitHub: [Ahmad2627](https://github.com/Ahmad2627)
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
-
-Let me know if you want me to create or format the `LICENSE` file as well or if you'd like to add features like replay or difficulty levels!
-
