@@ -1,18 +1,13 @@
-# # We are going to write a program that generates a random number and asks the user to 
-# # guess it. 
-# # If the player’s guess is higher than the actual number, the program displays “Lower 
-# # number please”. Similarly, if the user’s guess is too low, the program prints “higher 
-# # number please” When the user guesses the correct number, the program displays the 
-# # number of guesses the player used to arrive at the number. 
-# ====================================================================================
+# Number Guessing Game
+# This is a simple number guessing game where the user has to guess a number between 1 and 100.
 import random
 
 def guess_game():
     number_to_guess = random.randint(1,100)
     
     print("Welcome to the Number guessing game!")
-    print("I selected a number from 0 to 100, now you have to guess it under 6 turns....")
-    
+    print("I selected a number from 1 to 100, now you have to guess it under 6 turns....")
+
     guess = None
     attempts = 0
     
