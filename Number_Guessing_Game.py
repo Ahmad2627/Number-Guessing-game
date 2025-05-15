@@ -11,7 +11,7 @@ def guess_game():
     number_to_guess = random.randint(1,100)
     
     print("Welcome to the Number guessing game!")
-    print("I selected a number from 0 to 100, now you have to guess it under 6 terns....")
+    print("I selected a number from 0 to 100, now you have to guess it under 6 turns....")
     
     guess = None
     attempts = 0
